@@ -45,14 +45,17 @@
         android:orientation="vertical">
 
         <EditText
+            android:id="@+id/username"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:hint="Username or Email"
             android:padding="10dp"
             android:textColorHint="#bbbbbb"
-            android:background="@drawable/edittext_default"/>
+            android:background="@drawable/edittext_default"
+            android:inputType="text"/>
 
         <EditText
+            android:id="@+id/password"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:hint="Pasword"
@@ -62,6 +65,7 @@
             android:background="@drawable/edittext_default"/>
 
         <Button
+            android:id="@+id/loginbutton"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:padding="10dp"
